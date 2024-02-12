@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #ffc0cb;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.cabecalho {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho__menu__links {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px;
+    border: 4px solid #F2BFFF;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.cabecalho__menu__links:hover,
+h2:hover {
+    background-color: black;
+    color: #F2BFFF;
+}
+
+
+.fotoprincipal {
+    width: 50%;
+    border-radius: 50px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+}
+
+
+h1,
+p,
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.signature {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.container2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+}
+
+.sessao {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+}
+
+.sessao__1 {
+    width: 30%;
+    border-radius: 50px;
+}
+
+.paineldefotos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+    background-color: #444;
+}
+
+h2 {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px;
+    border: 4px solid #F2BFFF;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #551A9A;
+}
+
+.sobre {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 4px solid #F2BFFF;
+    border-radius: 10px;
+}
+
+@media(max-width:737px) {
+
+    .cabecalho {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cabecalho__menu__links {
+        width: 50%;
+    } 
+
+}
+
+@media(max-width:500px) {
+
+.cabecalho {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .cabecalho__menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
